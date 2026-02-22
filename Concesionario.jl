@@ -17,3 +17,4 @@ CTs = Cs * s + Lq * Cq
 println("cada cliente espera de media $(Wq*60) minutos en la cola y hay en promedio $(round(L, digits=4)) clientes en el sistema")
 println("El sistema está ocupado el $(round(rho*100, digits=2))% del tiempo de media")
 println("El tiempo total que un cliente pasa en el sistema es de $(round(W*60, digits=2)) minutos de media")
+
