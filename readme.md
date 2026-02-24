@@ -4,7 +4,11 @@
 
 This project models and simulates a call center system to identify the optimal staff configuration that minimizes operational cost while maintaining high service quality.
 
+<<<<<<< HEAD
 Using real salary data and empirically estimated arrival rates ($λ ≈ 19.81$ customers/hour), the system is modeled as an M/M/c queue and evaluated through Monte Carlo simulation.
+=======
+Using real salary data and empirically estimated arrival rates (λ ≈ 19.81 customers/hour), the system is modeled as an M/M/c queue and evaluated through Monte Carlo simulation.
+>>>>>>> aa3d281 (Work Finished and readme added)
 
 The objective is to determine the most cost-efficient and stable team composition under realistic demand variability.
 
@@ -15,8 +19,13 @@ The objective is to determine the most cost-efficient and stable team compositio
 The analysis uses real operational and salary data, including:
 
 - Salary distributions for Junior, Semi-Senior, and Senior advisors  
+<<<<<<< HEAD
 - The arrival rate 𝜆 was adjusted according to the time of day, using hourly weights derived from the observed demand distribution.
 - Service rate: $μ = 3$ customers/hour per advisor  
+=======
+- Observed arrival rate: λ ≈ 19.81 customers/hour  
+- Service rate: μ = 3 customers/hour per advisor  
+>>>>>>> aa3d281 (Work Finished and readme added)
 
 These parameters are used to simulate system performance under multiple staffing configurations.
 
@@ -79,4 +88,8 @@ Developed a stochastic queue simulation to optimize call center staffing using r
 Core areas: 
 - stochastic modeling 
 - quantitative analysis 
+<<<<<<< HEAD
 - operational optimization using Python.
+=======
+- operational optimization using Python.
+>>>>>>> aa3d281 (Work Finished and readme added)
