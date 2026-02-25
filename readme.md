@@ -4,7 +4,7 @@
 
 This project models and simulates a call center system to identify the optimal staff configuration that minimizes operational cost while maintaining high service quality.
 
-Using real salary data and empirically estimated arrival rates (λ ≈ 19.81 customers/hour), the system is modeled as an M/M/c queue and evaluated through Monte Carlo simulation.
+Using real salary data and empirically estimated arrival rates ($λ ≈ 19.81$ customers/hour), the system is modeled as an M/M/c queue and evaluated through Monte Carlo simulation.
 
 The objective is to determine the most cost-efficient and stable team composition under realistic demand variability.
 
@@ -15,8 +15,8 @@ The objective is to determine the most cost-efficient and stable team compositio
 The analysis uses real operational and salary data, including:
 
 - Salary distributions for Junior, Semi-Senior, and Senior advisors  
-- Observed arrival rate: λ ≈ 19.81 customers/hour  
-- Service rate: μ = 3 customers/hour per advisor  
+- The arrival rate 𝜆 was adjusted according to the time of day, using hourly weights derived from the observed demand distribution.
+- Service rate: $μ = 3$ customers/hour per advisor  
 
 These parameters are used to simulate system performance under multiple staffing configurations.
 
